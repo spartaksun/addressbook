@@ -1,0 +1,12 @@
+AddDefaultCharset UTF-8
+
+<Files .htaccess>
+    order deny,allow
+    deny from all
+</Files>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !^favicon\.ico
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(.*)$ ./index.php?route=$1 [L,QSA]

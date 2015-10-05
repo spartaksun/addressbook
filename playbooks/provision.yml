@@ -1,0 +1,14 @@
+---
+- name: Address book playbook
+  hosts: default
+  sudo: yes
+
+  vars_files:
+    - vars/local.yml
+
+  roles:
+    - php
+    - mysql
+    - apache
+
+

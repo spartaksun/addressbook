@@ -1,0 +1,6 @@
+---
+project_root: /var/www
+nginx_document_root: /
+mysql_db_name: test
+mysql_db_user: root
+

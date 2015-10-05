@@ -1,0 +1,116 @@
+html, body, form, fieldset {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    color: #000000;
+    background: #ffffff;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px
+}
+
+input {
+    display: block;
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 400px;
+}
+
+h1 {
+    font-size: 22px
+}
+
+h2 {
+    font-size: 18px
+}
+
+h3 {
+    font-size: 16px
+}
+
+a {
+    color: #0463c5;
+    text-decoration: underline
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: none
+}
+
+a.delete {
+    color: red;
+}
+
+a.nondelete {
+    color: gray;
+}
+
+input[type="text"] {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+input[type="password"] {
+    padding-left: 5px;
+    font-size: 30px;
+}
+
+input.error {
+    border-color: #a94442;
+}
+
+.errors {
+    background: #f2dede;
+    border: 1px solid;
+    border-color: #a94442;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.nav {
+    display: block;
+    border-bottom: 1px dotted #0463c5;
+    padding: 10px;
+    background-color: azure;
+}
+
+.message {
+    background: rgba(138, 235, 138, 0.29);
+    border: 1px solid;
+    border-color: #a4cb8d;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+ul.compact {
+    padding: 0 5px 15px 25px;
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto
+}
+
+ul.navigation {
+    margin: 0;
+    padding: 4px;
+    text-align: right;
+}
+
+ul.navigation li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+.wrapper {
+    width: 910px;
+    margin: 0 auto
+}
+
+.employee-form {
+    padding: 10px;
+}
